@@ -30,7 +30,6 @@
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<UserTrip>().HasKey(x => new { x.TripId, x.UserId });
-
             base.OnModelCreating(modelBuilder);
         }
     }

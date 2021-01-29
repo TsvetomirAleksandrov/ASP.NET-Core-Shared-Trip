@@ -1,4 +1,4 @@
-﻿ namespace SharedTrip.Controllers
+﻿namespace SharedTrip.Controllers
 {
     using SUS.HTTP;
     using SUS.MvcFramework;
@@ -8,6 +8,11 @@
         [HttpGet("/")]
         public HttpResponse Index()
         {
+            if (this.IsUserSignedIn())
+            {
+                return this.Redirect("/Trips/All");
+            }
+
             return this.View();
         }
     }

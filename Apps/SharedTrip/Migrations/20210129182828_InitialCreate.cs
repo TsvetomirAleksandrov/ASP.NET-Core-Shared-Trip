@@ -8,7 +8,7 @@ namespace SharedTrip.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Trip",
+                name: "Trips",
                 columns: table => new
                 {
                     Id = table.Column<string>(nullable: false),
@@ -21,11 +21,11 @@ namespace SharedTrip.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Trip", x => x.Id);
+                    table.PrimaryKey("PK_Trips", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "User",
+                name: "Users",
                 columns: table => new
                 {
                     Id = table.Column<string>(nullable: false),
@@ -35,11 +35,11 @@ namespace SharedTrip.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_User", x => x.Id);
+                    table.PrimaryKey("PK_Users", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "UserTrip",
+                name: "UserTrips",
                 columns: table => new
                 {
                     UserId = table.Column<string>(nullable: false),
@@ -47,37 +47,37 @@ namespace SharedTrip.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_UserTrip", x => new { x.TripId, x.UserId });
+                    table.PrimaryKey("PK_UserTrips", x => new { x.TripId, x.UserId });
                     table.ForeignKey(
-                        name: "FK_UserTrip_Trip_TripId",
+                        name: "FK_UserTrips_Trips_TripId",
                         column: x => x.TripId,
-                        principalTable: "Trip",
+                        principalTable: "Trips",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_UserTrip_User_UserId",
+                        name: "FK_UserTrips_Users_UserId",
                         column: x => x.UserId,
-                        principalTable: "User",
+                        principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_UserTrip_UserId",
-                table: "UserTrip",
+                name: "IX_UserTrips_UserId",
+                table: "UserTrips",
                 column: "UserId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "UserTrip");
+                name: "UserTrips");
 
             migrationBuilder.DropTable(
-                name: "Trip");
+                name: "Trips");
 
             migrationBuilder.DropTable(
-                name: "User");
+                name: "Users");
         }
     }
 }

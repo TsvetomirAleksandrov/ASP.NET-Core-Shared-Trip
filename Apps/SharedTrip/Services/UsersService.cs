@@ -16,20 +16,19 @@ namespace SharedTrip.Services
             this.db = db;
         }
 
-
-        public void Create(string username, string email, string pasword)
+        public void Create(string username, string email, string password)
         {
             var user = new User
             {
                 Email = email,
                 Username = username,
-                Password = ComputeHash(pasword),
+                Password = ComputeHash(password),
             };
             this.db.Users.Add(user);
             this.db.SaveChanges();
         }
 
-        public bool IsEmailAvailalble(string email)
+        public bool IsEmailAvailable(string email)
         {
             return !this.db.Users.Any(x => x.Email == email);
         }
@@ -38,7 +37,7 @@ namespace SharedTrip.Services
         {
             var hashPassword = ComputeHash(password);
             var user = this.db.Users.FirstOrDefault(
-                x => x.Username == username && x.Password == password);
+                x => x.Username == username && x.Password == hashPassword);
             return user?.Id;
         }
 
@@ -59,6 +58,5 @@ namespace SharedTrip.Services
                 hashedInputStringBuilder.Append(b.ToString("X2"));
             return hashedInputStringBuilder.ToString();
         }
-    
+    }
 }
-
