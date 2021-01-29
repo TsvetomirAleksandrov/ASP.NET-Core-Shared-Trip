@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fu7pBQrkhk0utPgyyKo+jhMmnl/xOQxKJhXcBygsD686jqh6pHXOFCDjCYyZVQ685EK05/S4tp+HDjiJbpBeGw==",
+  "dgSpecHash": "I7fkdrYmtyMNApMirGVnYnXMN0X6IDcGzArUz7jfkosn0vlI3umZRL+7pgXswstPOiOjPjYDO4gcyy1n29wIGQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tsvetomir\\Documents\\GitHub\\Web Projects\\ASP.NET-Core-Shared-Trip\\Apps\\SharedTrip\\SharedTrip.csproj",
   "expectedPackageFiles": [
@@ -17,7 +17,6 @@
     "C:\\Users\\Tsvetomir\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.9\\microsoft.entityframeworkcore.design.3.1.9.nupkg.sha512",
     "C:\\Users\\Tsvetomir\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.9\\microsoft.entityframeworkcore.relational.3.1.9.nupkg.sha512",
     "C:\\Users\\Tsvetomir\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.9\\microsoft.entityframeworkcore.sqlserver.3.1.9.nupkg.sha512",
-    "C:\\Users\\Tsvetomir\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.9\\microsoft.entityframeworkcore.tools.3.1.9.nupkg.sha512",
     "C:\\Users\\Tsvetomir\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.9\\microsoft.extensions.caching.abstractions.3.1.9.nupkg.sha512",
     "C:\\Users\\Tsvetomir\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.9\\microsoft.extensions.caching.memory.3.1.9.nupkg.sha512",
     "C:\\Users\\Tsvetomir\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.9\\microsoft.extensions.configuration.3.1.9.nupkg.sha512",

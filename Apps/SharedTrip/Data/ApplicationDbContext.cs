@@ -23,7 +23,7 @@
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=.\\SQLEXPRESS;Database=SharedTrip;Integrated Security=True");
+                optionsBuilder.UseSqlServer("Server=.;Database=SharedTrip;Integrated Security=True");
             }
         }
 

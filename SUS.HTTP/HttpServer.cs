@@ -99,7 +99,7 @@ namespace SUS.HTTP
 
                 tcpClient.Close();
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 Console.WriteLine(ex);
             }
