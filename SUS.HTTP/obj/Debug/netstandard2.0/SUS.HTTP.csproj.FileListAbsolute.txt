@@ -1,0 +1,9 @@
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.HTTP\bin\Debug\netstandard2.0\SUS.HTTP.deps.json
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.HTTP\bin\Debug\netstandard2.0\SUS.HTTP.dll
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.HTTP\bin\Debug\netstandard2.0\SUS.HTTP.pdb
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.csprojAssemblyReference.cache
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.AssemblyInfoInputs.cache
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.AssemblyInfo.cs
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.csproj.CoreCompileInputs.cache
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.dll
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.HTTP\obj\Debug\netstandard2.0\SUS.HTTP.pdb

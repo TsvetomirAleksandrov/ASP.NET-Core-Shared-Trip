@@ -1,10 +1,11 @@
-﻿namespace SharedTrip.Controllers
+﻿ namespace SharedTrip.Controllers
 {
     using SUS.HTTP;
     using SUS.MvcFramework;
 
     public class HomeController : Controller
     {
+        [HttpGet("/")]
         public HttpResponse Index()
         {
             return this.View();

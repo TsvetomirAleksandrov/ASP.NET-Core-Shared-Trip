@@ -1,0 +1,12 @@
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.MvcFramework.deps.json
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.MvcFramework.dll
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.MvcFramework.pdb
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.HTTP.dll
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.MvcFramework\bin\Debug\netstandard2.0\SUS.HTTP.pdb
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.csprojAssemblyReference.cache
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.AssemblyInfoInputs.cache
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.AssemblyInfo.cs
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.csproj.CoreCompileInputs.cache
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.csproj.CopyComplete
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.dll
+C:\Users\Tsvetomir\Documents\GitHub\Web Projects\ASP.NET-Core-Shared-Trip\SUS.MvcFramework\obj\Debug\netstandard2.0\SUS.MvcFramework.pdb
