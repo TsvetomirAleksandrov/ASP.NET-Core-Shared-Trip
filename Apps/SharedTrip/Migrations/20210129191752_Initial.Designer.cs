@@ -10,8 +10,8 @@ using SharedTrip.Data;
 namespace SharedTrip.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210129182828_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20210129191752_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
