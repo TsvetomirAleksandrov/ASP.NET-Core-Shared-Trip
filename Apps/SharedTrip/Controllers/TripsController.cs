@@ -4,6 +4,7 @@ using SUS.HTTP;
 using SUS.MvcFramework;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 
 namespace SharedTrip.Controllers
@@ -49,6 +50,15 @@ namespace SharedTrip.Controllers
             if (string.IsNullOrEmpty(input.Description) || input.Description.Length > 80)
             {
                 return this.Error("Description is required and has max length of 80.");
+            }
+
+            if (!DateTime.TryParseExact
+                (input.DepartureTime,
+                "dd.MM.yyyy HH:mm",
+                CultureInfo.InvariantCulture,
+                DateTimeStyles.None ,out _))
+            {
+                return this.Error("Invalid departure time. Please use dd.MM.yyyy HH:mm formmat.");
             }
 
             this.tripsService.Create(input);

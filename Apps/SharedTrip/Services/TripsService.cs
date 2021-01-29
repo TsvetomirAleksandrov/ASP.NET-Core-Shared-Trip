@@ -2,6 +2,7 @@
 using SharedTrip.ViewModels.Trips;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 
 namespace SharedTrip.Services
@@ -19,7 +20,7 @@ namespace SharedTrip.Services
         {
             var dbTrip = new Trip
             {
-                DepartureTime = trip.DepartureTime,
+                DepartureTime = DateTime.ParseExact(trip.DepartureTime, "dd.MM.yyyy HH:mm", CultureInfo.InvariantCulture),
                 Description = trip.Description,
                 EndPoint = trip.EndPoint,
                 ImagePath = trip.ImagePath,
