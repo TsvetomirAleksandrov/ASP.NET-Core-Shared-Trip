@@ -20,9 +20,32 @@ namespace SharedTrip.Controllers
 
         public HttpResponse All()
         {
-            return this.View();
+            var trips = this.tripsService.GetAll();
+            return this.View(trips);
         }
 
+        public HttpResponse Details(string tripId)
+        {
+            var trip = this.tripsService.GetDetails(tripId);
+            return this.View(trip);
+        }
+
+        public HttpResponse AddUserToTrip(string tripId)
+        {
+            if (!this.IsUserSignedIn())
+            {
+                return this.Redirect("/Users/Login");
+            }
+
+            if (!this.tripsService.HasAvailableSeats(tripId))
+            {
+                return this.Error("No seats available.");
+            }
+
+            var userId = this.GetUserId();
+            this.tripsService.AddUserToTrip(userId, tripId);
+            return this.Redirect("/Trips/All");
+        }
 
         public HttpResponse Add()
         {
